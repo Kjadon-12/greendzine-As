@@ -10,8 +10,7 @@
   opacity: 1;
   height: 61px;
   border-radius: 25px;
-  /* filter: blur(7px); */
-  /* width: 100%; */
+  
 }
 
 .footer > div {
@@ -22,7 +21,7 @@
   color: #36a54680;
   height: 100%;
   border-radius: 25px;
-  /* filter: blur(7px);  */
+ 
 }
 
 .btnActive {
