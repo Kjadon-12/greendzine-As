@@ -14,7 +14,7 @@ const Employee = () => {
   const [searchName , setSearchName] = useState('')
   const submitHandler = (e) =>{
     e.preventDefault();
-    const filteredData = employeeList.filter((emp) => emp.name.toLowerCase() === searchName);
+    const filteredData = employeeList.filter((emp) => emp.name.toLowerCase() === searchName.toLowerCase());
     setFilterData(filteredData);
   }
   return (
