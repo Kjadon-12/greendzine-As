@@ -4,6 +4,7 @@ import styles from './Home.module.css'
 import girl from '../../assets/girl.png';
 import moptroLogo from '../../assets/moptroLogo.png';
 import Dashboard from '../../components/Dashboard/Dashboard';
+import Employee from '../../components/Employee/Employee';
 const Home = () => {
     const [showDashboard , setShowDashboard] = useState(true)
     const handleButtonClick = (buttonType) => {
@@ -28,7 +29,7 @@ const Home = () => {
         <div className={styles.tag}>4</div>
     </div>
     
-    {showDashboard ? (<Dashboard/>) : (<h1 className={styles.heading}>Employee List</h1>)}
+    {showDashboard ? (<Dashboard/>) : (<Employee/>)}
     <Footer showDashboard={showDashboard} onButtonClick={handleButtonClick}/>
     </div>
     </>

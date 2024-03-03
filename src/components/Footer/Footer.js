@@ -7,7 +7,7 @@ const Footer = ({showDashboard ,onButtonClick}) => {
     <>
     <div className={styles.footer}>
     <div onClick={() => onButtonClick('home')} className={showDashboard ? styles.btnActive : ''}><FontAwesomeIcon icon={faHouse} /></div>
-    <div onClick={() => onButtonClick('employee')} className={!showDashboard && `${styles.btnActive}`}><FontAwesomeIcon icon={faUser} /></div>
+    <div onClick={() => onButtonClick('employee')} className={!showDashboard ? `${styles.btnActive}`: ''}><FontAwesomeIcon icon={faUser} /></div>
     
     </div>
     </>
