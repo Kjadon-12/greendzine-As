@@ -29,7 +29,7 @@
   letter-spacing: 0.02px;
   color: #36a546;
 
-  /* filter: blur(2px); */
+  filter: blur(2px);
 }
 
 @media screen and (max-width: 412px) {
@@ -42,6 +42,6 @@
   .homeLogo {
     display: flex;
     justify-content: center;
-    margin: 9% 0 12% 0;
+    margin: 9% 0 16% 0;
   }
 }
